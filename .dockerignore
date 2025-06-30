@@ -17,3 +17,7 @@ docker/**/Dockerfile
 .vscode
 cypress
 test-workflows
+
+# ✅ Explicitly include critical build files
+!docker/images/n8n/
+!docker/images/n8n/* 
